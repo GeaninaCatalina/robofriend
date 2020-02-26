@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import Hello from './Hello' ;
+import 'tachyons'; 
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
+ReactDOM.render(<Hello />, document.getElementById('root'));
+
+//If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+serviceWorker.unregister(); 
+
+///my notes
+// we can import whatever we want. and can be used fro all kind of apps
+// react dom is used for the dom websites 
+// react allows ti import css for each component; you need too import and give it the path 
+
