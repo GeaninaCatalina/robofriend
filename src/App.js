@@ -3,7 +3,6 @@ import CardList from './CardList';
 import {robots} from './robots';
 import SearchBox from './SearchBox'; 
 
-const App = () => {
   return (
     <div className = 'tc'> 
       <h1>RoboPlayers</h1>
